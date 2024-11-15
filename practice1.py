@@ -1,24 +1,17 @@
-#WAP to ask the user to enter of there 3 favorite movies & store them in a  list.
-
-movies = []
-mov = input("enter 1st movies: ")
-movies.append(mov)
-mov = input("enter 2nd movies: ")
-movies.append(mov)
-mov = input("enter 3rd movies: ")
-movies.append(mov)
+#WAP  to enter marks of 3 subjects from the user store them in a dictionary. Start with an
+# empty dictionary & add one by one. Use subject name as key & marks as value.
 
 
+marks = {}
 
+x = int(input("enter phy : "))
+marks.update({"phy" : x})
 
-##########################################################
+x = int(input("enter chem : "))
+marks.update({"chem" : x})
 
+x = int(input("enter math : "))
+marks.update({"math" : x})
 
-print(movies)
+print(marks)
 
-movies = []
-movies.append(input("enter 1st movies: "))
-movies.append(input("enter 2nd movies: "))
-movies.append(input("enter 3rd movies: "))
-
-print(movies)
